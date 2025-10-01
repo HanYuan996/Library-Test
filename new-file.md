@@ -37,6 +37,12 @@ public class database {
 				           +library.get(num).getPagenum()+"]");
 	}
 	
+	public void removeBook(int num)
+	{
+		library.remove(num);
+	}
+	
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
